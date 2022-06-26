@@ -1,0 +1,37 @@
+body{
+    background-image: url("https://i.gifer.com/1EuU.gif");
+    background-position: center;
+    background-size: cover;
+}
+#Heading_1
+{
+    padding-top: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 44px;
+    font-weight: bolder;
+    color:rgb(88, 88, 255)
+}
+
+#button_1
+{
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    color:blue;
+    font-size: 35px;
+}
+
+canvas{
+    animation-name: goggle;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+}
+@keyframes goggle
+{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow:1px 1px 38px blue;}
+}
+
+.btn-info:hover
+{
+    background-color: crimson;
+}
